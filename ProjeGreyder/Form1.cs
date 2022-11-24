@@ -75,8 +75,7 @@ namespace ProjeGreyder
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Index Index = new Index();
-            Index.Show();
+          Close();
         }
 
         private void textisim_Resize(object sender, EventArgs e)

@@ -58,7 +58,8 @@ namespace ProjeGreyder
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+           Form1 form = new Form1();
+            form.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
